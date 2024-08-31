@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark background for the body */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d; /* Slightly lighter dark grey for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 900px;
+}
+
+.welcome-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #e0e0e0; /* Light grey for headings */
+}
+
+p {
+    color: #b0b0b0; /* Medium grey for text */
+}
+
+.phone-number {
+    font-weight: bold;
+    color: #ffffff; /* White for emphasis */
+    margin: 5px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #b0b0b0; /* Medium grey for icons */
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffffff; /* White for hover effect */
+}
+
+.login-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #3a3a3a; /* Dark grey for the login section */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 22px;
+    color: #e0e0e0; /* Light grey for subheadings */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555555; /* Dark grey border for inputs */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff; /* White text for inputs */
+    background-color: #2d2d2d; /* Slightly lighter dark grey for input backgrounds */
+}
+
+button {
+    background-color: #007bff; /* Blue for buttons */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.back-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff; /* Blue for link text */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #0056b3; /* Darker blue for hover effect */
+}
