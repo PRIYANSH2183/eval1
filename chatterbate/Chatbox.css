@@ -311,3 +311,32 @@ body{
     background-color: #e0e0e0;
     cursor: pointer;
 }
+.main{
+    width:71%;
+    height: 100vh;
+    background-color: #8da1eb;
+    margin-left:0px;
+    box-shadow: 0 5px 10px rgba(204, 53, 179, 0.1);
+    position: fixed;
+    right: 0px;
+}
+
+.maintop{
+    display: flex;
+    padding: 0px 10px;
+    background-color: #d5e1fb;
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 0 5px 5px rgba(204, 53, 179, 0.1);
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.messageboxtop{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d5e1fb;
+    width: 100%;
+    line-height: 2;
+    align-items: center;
+}
