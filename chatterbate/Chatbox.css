@@ -55,3 +55,20 @@ body{
 .wrapper .sidebar ul{
     padding-top: 50px;
 }
+.logout{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    background: #8da1eb;
+    padding: 10px 0;
+    border-top: 1px solid #8da1eb;
+}
+
+.contacts{
+    width: 22%;
+    height: 100vh;
+    background-color: #adbbda;
+    margin-left: 100px;
+    box-shadow: 0 5px 10px rgba(204, 53, 179, 0.1);
+}
