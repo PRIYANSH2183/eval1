@@ -238,3 +238,76 @@ body{
     background-color: aquamarine;
     cursor: pointer;
 }
+.messagestop{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f3f5f3;
+    width: 90%;
+    margin: 20px auto 0px;
+    border-radius: 10px 10px 0px 0px;
+    border: 0.5px solid #e0e0e0;
+    border-bottom:1px solid black;
+}
+.messagestop h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.messagestop button{
+    background-color: #f3f5f3;
+    border: 0px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+.messagestop button:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;;
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f3f5f3;
+    width: 90%;
+    margin: 0px auto;
+    border-radius:0 0px;
+    border: 0.5px solid #e0e0e0;
+    line-height: 1.7;
+    
+}
+.mmessage{  
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e0e0e0;
+    width: 90%;
+    margin: 0px auto;
+    border-radius:0 0px;
+    border: 0.5px solid #e0e0e0;
+    line-height: 1.7;
+    
+
+}
+.messageimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #e3350a;
+    margin: 0px;
+}
+.messagesbottom p{
+    font-size: 11px;
+    opacity: 0.4;
+}
+.messagesbottom h4{
+    font-size: 15px;
+    width: 150px;
+}
+.message:hover{ 
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
