@@ -26,3 +26,32 @@ body{
     justify-content: center;
 
 }  
+.logout{
+    background:#8da1eb;
+} 
+.wrapper .sidebar ul li{
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 28px;
+}
+.profile:hover{
+    cursor: pointer;
+}
+.sidebar li:hover  {
+    background-color: #e0e0e0;
+    cursor: pointer;
+
+}
+
+.wrapper .sidebar ul{
+    padding-top: 50px;
+}
